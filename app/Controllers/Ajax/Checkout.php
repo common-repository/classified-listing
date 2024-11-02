@@ -215,9 +215,16 @@ class Checkout {
 		$results = $wpdb->get_results( $sql );
 
 		if ( empty( $results ) ) {
-			$sql = "SELECT * FROM $table_name WHERE  country = '' AND  country_state = ''  ORDER BY tax_rate_priority DESC";
+
+			$sql = "SELECT * FROM $table_name WHERE country = '{$country}' AND country_state = '' ORDER BY tax_rate_priority DESC";
 
 			$results = $wpdb->get_results( $sql );
+
+			if ( empty( $results ) ) {
+				$sql = "SELECT * FROM $table_name WHERE country = '' AND country_state = '' ORDER BY tax_rate_priority DESC";
+
+				$results = $wpdb->get_results( $sql );
+			}
 		}
 
 		if ( ! empty( $results ) ) {

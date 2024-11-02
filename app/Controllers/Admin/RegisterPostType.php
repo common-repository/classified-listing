@@ -382,7 +382,7 @@ class RegisterPostType {
 			'label'       => esc_html_x( 'Reviewed', 'post', 'classified-listing' ),
 			'public'      => is_admin(),
 			'internal'    => false,
-			// phpcs:ignore WordPress.WP.I18n.MissingTranslatorsComment
+			/* translators: Review Count */
 			'label_count' => _n_noop( 'Review <span class="count">(%s)</span>', 'Review <span class="count">(%s)</span>', 'classified-listing' )
 		] );
 
@@ -390,7 +390,7 @@ class RegisterPostType {
 			'label'       => esc_html_x( 'Expired', 'post', 'classified-listing' ),
 			'public'      => is_admin(),
 			'internal'    => false,
-			// phpcs:ignore WordPress.WP.I18n.MissingTranslatorsComment
+			/* translators: Expired Count */
 			'label_count' => _n_noop( 'Expired <span class="count">(%s)</span>', 'Expired <span class="count">(%s)</span>', 'classified-listing' )
 		] );
 
@@ -399,7 +399,7 @@ class RegisterPostType {
 			'public'                 => false,
 			'internal'               => false,
 			'show_in_admin_all_list' => false,
-			// phpcs:ignore WordPress.WP.I18n.MissingTranslatorsComment
+			/* translators: Temporary Count */
 			'label_count'            => _n_noop( 'Temporary <span class="count">(%s)</span>', 'Temporary <span class="count">(%s)</span>', 'classified-listing' )
 		] );
 
@@ -409,7 +409,7 @@ class RegisterPostType {
 			'exclude_from_search'       => false,
 			'show_in_admin_all_list'    => true,
 			'show_in_admin_status_list' => true,
-			// phpcs:ignore WordPress.WP.I18n.MissingTranslatorsComment
+			/* translators: Pending payment Count */
 			'label_count'               => _n_noop( 'Pending payment <span class="count">(%s)</span>', 'Pending payment <span class="count">(%s)</span>', 'classified-listing' ),
 		] );
 
@@ -419,7 +419,7 @@ class RegisterPostType {
 			'exclude_from_search'       => false,
 			'show_in_admin_all_list'    => true,
 			'show_in_admin_status_list' => true,
-			// phpcs:ignore WordPress.WP.I18n.MissingTranslatorsComment
+			/* translators: Created Count */
 			'label_count'               => _n_noop( 'Created <span class="count">(%s)</span>', 'Created <span class="count">(%s)</span>', 'classified-listing' ),
 		] );
 
@@ -429,7 +429,7 @@ class RegisterPostType {
 			'exclude_from_search'       => false,
 			'show_in_admin_all_list'    => true,
 			'show_in_admin_status_list' => true,
-			// phpcs:ignore WordPress.WP.I18n.MissingTranslatorsComment
+			/* translators: Completed Count */
 			'label_count'               => _n_noop( 'Completed <span class="count">(%s)</span>', 'Completed <span class="count">(%s)</span>', 'classified-listing' ),
 		] );
 
@@ -439,7 +439,7 @@ class RegisterPostType {
 			'exclude_from_search'       => false,
 			'show_in_admin_all_list'    => true,
 			'show_in_admin_status_list' => true,
-			// phpcs:ignore WordPress.WP.I18n.MissingTranslatorsComment
+			/* translators: Failed Count */
 			'label_count'               => _n_noop( 'Failed <span class="count">(%s)</span>', 'Failed <span class="count">(%s)</span>', 'classified-listing' ),
 		] );
 
@@ -449,7 +449,7 @@ class RegisterPostType {
 			'exclude_from_search'       => false,
 			'show_in_admin_all_list'    => true,
 			'show_in_admin_status_list' => true,
-			// phpcs:ignore WordPress.WP.I18n.MissingTranslatorsComment
+			/* translators: Cancelled Count */
 			'label_count'               => _n_noop( 'Cancelled <span class="count">(%s)</span>', 'Cancelled <span class="count">(%s)</span>', 'classified-listing' ),
 		] );
 
@@ -459,7 +459,7 @@ class RegisterPostType {
 			'exclude_from_search'       => false,
 			'show_in_admin_all_list'    => true,
 			'show_in_admin_status_list' => true,
-			// phpcs:ignore WordPress.WP.I18n.MissingTranslatorsComment
+			/* translators: Refunded Count */
 			'label_count'               => _n_noop( 'Refunded <span class="count">(%s)</span>', 'Refunded <span class="count">(%s)</span>', 'classified-listing' ),
 		] );
 
@@ -469,7 +469,7 @@ class RegisterPostType {
 			'exclude_from_search'       => false,
 			'show_in_admin_all_list'    => true,
 			'show_in_admin_status_list' => true,
-			// phpcs:ignore WordPress.WP.I18n.MissingTranslatorsComment
+			/* translators: On hold Count */
 			'label_count'               => _n_noop( 'On hold <span class="count">(%s)</span>', 'Refunded <span class="count">(%s)</span>', 'classified-listing' ),
 		] );
 		register_post_status( 'rtcl-processing', [
@@ -478,7 +478,7 @@ class RegisterPostType {
 			'exclude_from_search'       => false,
 			'show_in_admin_all_list'    => true,
 			'show_in_admin_status_list' => true,
-			// phpcs:ignore WordPress.WP.I18n.MissingTranslatorsComment
+			/* translators: Processing Count */
 			'label_count'               => _n_noop( 'Processing <span class="count">(%s)</span>', 'Refunded <span class="count">(%s)</span>', 'classified-listing' ),
 		] );
 	}

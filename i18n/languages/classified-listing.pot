@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Classified Listing – Classified ads & Business Directory Plugin plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Classified Listing – Classified ads & Business Directory Plugin 3.1.12\n"
+"Project-Id-Version: Classified Listing – Classified ads & Business Directory Plugin 3.1.13\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/classified-listing\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-10-28T04:45:10+00:00\n"
+"POT-Creation-Date: 2024-10-31T08:42:23+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: classified-listing\n"
@@ -137,7 +137,7 @@ msgid "Listing Details"
 msgstr ""
 
 #: app/Controllers/Admin/Meta/AddMetaBox.php:67
-#: app/Services/FormBuilder/FormPreDefined.php:233
+#: app/Services/FormBuilder/FormPreDefined.php:229
 #: templates/listing-form/contact.php:34
 msgid "Contact Details"
 msgstr ""
@@ -149,7 +149,7 @@ msgstr ""
 
 #: app/Controllers/Admin/Meta/AddMetaBox.php:83
 #: app/Resources/Options.php:3026
-#: app/Services/FormBuilder/FormPreDefined.php:224
+#: app/Services/FormBuilder/FormPreDefined.php:220
 #: templates/listing-form/video-urls.php:15
 msgid "Video URL"
 msgstr ""
@@ -371,7 +371,7 @@ msgstr ""
 #: app/Resources/OrderOptions.php:23
 #: app/Services/FormBuilder/AvailableFields.php:1035
 #: app/Services/FormBuilder/FormPreDefined.php:34
-#: app/Services/FormBuilder/FormPreDefined.php:278
+#: app/Services/FormBuilder/FormPreDefined.php:274
 #: app/Services/FormBuilder/LocalizedString.php:14
 #: templates/listing-form/form-builder.php:26
 #: views/settings/listing-type.php:57
@@ -514,7 +514,7 @@ msgstr ""
 #: app/Controllers/SocialProfilesController.php:139
 #: app/Services/FormBuilder/AvailableFields.php:446
 #: app/Services/FormBuilder/AvailableFields.php:458
-#: app/Services/FormBuilder/FormPreDefined.php:260
+#: app/Services/FormBuilder/FormPreDefined.php:256
 #: templates/listing-form/social-profiles.php:26
 msgid "Social Profiles"
 msgstr ""
@@ -952,6 +952,7 @@ msgctxt "post"
 msgid "Reviewed"
 msgstr ""
 
+#. translators: Review Count
 #: app/Controllers/Admin/RegisterPostType.php:386
 msgid "Review <span class=\"count\">(%s)</span>"
 msgid_plural "Review <span class=\"count\">(%s)</span>"
@@ -963,6 +964,7 @@ msgctxt "post"
 msgid "Expired"
 msgstr ""
 
+#. translators: Expired Count
 #: app/Controllers/Admin/RegisterPostType.php:394
 msgid "Expired <span class=\"count\">(%s)</span>"
 msgid_plural "Expired <span class=\"count\">(%s)</span>"
@@ -974,6 +976,7 @@ msgctxt "post"
 msgid "Temporary"
 msgstr ""
 
+#. translators: Temporary Count
 #: app/Controllers/Admin/RegisterPostType.php:403
 msgid "Temporary <span class=\"count\">(%s)</span>"
 msgid_plural "Temporary <span class=\"count\">(%s)</span>"
@@ -985,6 +988,7 @@ msgctxt "pending status payment"
 msgid "Pending payment"
 msgstr ""
 
+#. translators: Pending payment Count
 #: app/Controllers/Admin/RegisterPostType.php:413
 msgid "Pending payment <span class=\"count\">(%s)</span>"
 msgid_plural "Pending payment <span class=\"count\">(%s)</span>"
@@ -997,6 +1001,7 @@ msgctxt "Payment status"
 msgid "Created"
 msgstr ""
 
+#. translators: Created Count
 #: app/Controllers/Admin/RegisterPostType.php:423
 msgid "Created <span class=\"count\">(%s)</span>"
 msgid_plural "Created <span class=\"count\">(%s)</span>"
@@ -1009,6 +1014,7 @@ msgctxt "Payment status"
 msgid "Completed"
 msgstr ""
 
+#. translators: Completed Count
 #: app/Controllers/Admin/RegisterPostType.php:433
 msgid "Completed <span class=\"count\">(%s)</span>"
 msgid_plural "Completed <span class=\"count\">(%s)</span>"
@@ -1021,6 +1027,7 @@ msgctxt "Payment status"
 msgid "Failed"
 msgstr ""
 
+#. translators: Failed Count
 #: app/Controllers/Admin/RegisterPostType.php:443
 msgid "Failed <span class=\"count\">(%s)</span>"
 msgid_plural "Failed <span class=\"count\">(%s)</span>"
@@ -1033,6 +1040,7 @@ msgctxt "Payment status"
 msgid "Cancelled"
 msgstr ""
 
+#. translators: Cancelled Count
 #: app/Controllers/Admin/RegisterPostType.php:453
 msgid "Cancelled <span class=\"count\">(%s)</span>"
 msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
@@ -1045,6 +1053,7 @@ msgctxt "Payment status"
 msgid "Refunded"
 msgstr ""
 
+#. translators: Refunded Count
 #: app/Controllers/Admin/RegisterPostType.php:463
 msgid "Refunded <span class=\"count\">(%s)</span>"
 msgid_plural "Refunded <span class=\"count\">(%s)</span>"
@@ -1057,6 +1066,7 @@ msgctxt "Payment status"
 msgid "On hold"
 msgstr ""
 
+#. translators: On hold Count
 #: app/Controllers/Admin/RegisterPostType.php:473
 msgid "On hold <span class=\"count\">(%s)</span>"
 msgid_plural "Refunded <span class=\"count\">(%s)</span>"
@@ -1069,6 +1079,7 @@ msgctxt "Payment status"
 msgid "Processing"
 msgstr ""
 
+#. translators: Processing Count
 #: app/Controllers/Admin/RegisterPostType.php:482
 msgid "Processing <span class=\"count\">(%s)</span>"
 msgid_plural "Refunded <span class=\"count\">(%s)</span>"
@@ -1076,7 +1087,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: app/Controllers/Admin/ScriptLoader.php:81
-#: app/Controllers/Admin/ScriptLoader.php:607
+#: app/Controllers/Admin/ScriptLoader.php:605
 msgid "Are you sure you want to re-send verification link?"
 msgstr ""
 
@@ -1098,13 +1109,13 @@ msgid "Main"
 msgstr ""
 
 #: app/Controllers/Admin/ScriptLoader.php:185
-#: app/Controllers/Admin/ScriptLoader.php:669
+#: app/Controllers/Admin/ScriptLoader.php:667
 msgid "Error while upload image"
 msgstr ""
 
 #. translators: Image size
 #: app/Controllers/Admin/ScriptLoader.php:187
-#: app/Controllers/Admin/ScriptLoader.php:671
+#: app/Controllers/Admin/ScriptLoader.php:669
 msgid "Image size is more then %s."
 msgstr ""
 
@@ -1113,7 +1124,7 @@ msgid "Image limit is over."
 msgstr ""
 
 #: app/Controllers/Admin/ScriptLoader.php:190
-#: app/Controllers/Admin/ScriptLoader.php:673
+#: app/Controllers/Admin/ScriptLoader.php:671
 msgid "File extension not supported."
 msgstr ""
 
@@ -1247,159 +1258,158 @@ msgid "Please Select a value file with a valid extension."
 msgstr ""
 
 #. translators: Password length
-#. translators:  Password length
 #: app/Controllers/Admin/ScriptLoader.php:228
 #: app/Controllers/Hooks/FilterHooks.php:331
 msgid "Your password must be at least %d characters long."
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:230
+#: app/Controllers/Admin/ScriptLoader.php:229
 msgid "Max must be greater than min"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:231
+#: app/Controllers/Admin/ScriptLoader.php:230
 msgid "Max price must be greater than regular price"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:233
+#: app/Controllers/Admin/ScriptLoader.php:232
 msgid "Please enter a valid credit card number."
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:234
+#: app/Controllers/Admin/ScriptLoader.php:233
 msgid "Enter a valid cvc number."
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:235
+#: app/Controllers/Admin/ScriptLoader.php:234
 msgid "Enter a valid expiry date"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:236
+#: app/Controllers/Admin/ScriptLoader.php:235
 msgid "Your card number is incorrect."
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:237
+#: app/Controllers/Admin/ScriptLoader.php:236
 msgid "A network error has occurred, and you have not been charged. Please try again."
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:242
+#: app/Controllers/Admin/ScriptLoader.php:240
 msgid "Password strength unknown"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:243
+#: app/Controllers/Admin/ScriptLoader.php:241
 msgid "Very weak"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:244
+#: app/Controllers/Admin/ScriptLoader.php:242
 msgid "Weak"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:245
+#: app/Controllers/Admin/ScriptLoader.php:243
 #: app/Services/FormBuilder/ElementCustomization.php:588
 msgid "Medium"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:246
+#: app/Controllers/Admin/ScriptLoader.php:244
 msgid "Strong"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:247
+#: app/Controllers/Admin/ScriptLoader.php:245
 msgid "Mismatch"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:260
+#: app/Controllers/Admin/ScriptLoader.php:258
 #: app/Helpers/Functions.php:4921
 #: app/Helpers/Functions.php:4923
 msgid "Select an option&hellip;"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:261
+#: app/Controllers/Admin/ScriptLoader.php:259
 msgctxt "enhanced select"
 msgid "No matches found"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:262
+#: app/Controllers/Admin/ScriptLoader.php:260
 msgctxt "enhanced select"
 msgid "Loading failed"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:263
+#: app/Controllers/Admin/ScriptLoader.php:261
 msgctxt "enhanced select"
 msgid "Please enter 1 or more characters"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:264
+#: app/Controllers/Admin/ScriptLoader.php:262
 msgctxt "enhanced select"
 msgid "Please enter %qty% or more characters"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:265
+#: app/Controllers/Admin/ScriptLoader.php:263
 msgctxt "enhanced select"
 msgid "Please delete 1 character"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:266
+#: app/Controllers/Admin/ScriptLoader.php:264
 msgctxt "enhanced select"
 msgid "Please delete %qty% characters"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:267
+#: app/Controllers/Admin/ScriptLoader.php:265
 msgctxt "enhanced select"
 msgid "You can only select 1 item"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:268
+#: app/Controllers/Admin/ScriptLoader.php:266
 msgctxt "enhanced select"
 msgid "You can only select %qty% items"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:269
+#: app/Controllers/Admin/ScriptLoader.php:267
 msgctxt "enhanced select"
 msgid "Loading more results&hellip;"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:270
+#: app/Controllers/Admin/ScriptLoader.php:268
 msgctxt "enhanced select"
 msgid "Searching&hellip;"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:277
+#: app/Controllers/Admin/ScriptLoader.php:275
 #: app/Helpers/Functions.php:4820
 msgid "required"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:278
+#: app/Controllers/Admin/ScriptLoader.php:276
 #: app/Helpers/Functions.php:4822
 msgid "optional"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:596
+#: app/Controllers/Admin/ScriptLoader.php:594
 msgid "Please select a rating"
 msgstr ""
 
 #. translators: %s: decimal
 #. translators: decimal_separator
 #. translators: pricing_decimal_separator
-#: app/Controllers/Admin/ScriptLoader.php:598
-#: app/Controllers/Admin/ScriptLoader.php:837
-#: app/Controllers/Admin/ScriptLoader.php:840
+#: app/Controllers/Admin/ScriptLoader.php:596
+#: app/Controllers/Admin/ScriptLoader.php:835
+#: app/Controllers/Admin/ScriptLoader.php:838
 msgid "Please enter in decimal (%s) format without thousand separators."
 msgstr ""
 
 #. translators: %s: price decimal separator
 #. translators: decimal_separator
 #. translators: pricing_decimal_separator
-#: app/Controllers/Admin/ScriptLoader.php:601
-#: app/Controllers/Admin/ScriptLoader.php:843
-#: app/Controllers/Admin/ScriptLoader.php:846
+#: app/Controllers/Admin/ScriptLoader.php:599
+#: app/Controllers/Admin/ScriptLoader.php:841
+#: app/Controllers/Admin/ScriptLoader.php:844
 msgid "Please enter in monetary decimal (%s) format without thousand separators and currency symbols."
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:606
+#: app/Controllers/Admin/ScriptLoader.php:604
 #: app/Models/RtclCFGField.php:246
 msgid "Are you sure?"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:612
+#: app/Controllers/Admin/ScriptLoader.php:610
 #: app/Controllers/Hooks/TemplateHooks.php:361
 #: app/Controllers/Hooks/TemplateHooks.php:396
 #: app/Resources/ListingDetails.php:69
@@ -1415,11 +1425,11 @@ msgstr ""
 msgid "Category"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:613
+#: app/Controllers/Admin/ScriptLoader.php:611
 msgid "Go back"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:614
+#: app/Controllers/Admin/ScriptLoader.php:612
 #: app/Controllers/Elementor/Widgets/SingleLocation.php:64
 #: app/Controllers/Hooks/TemplateHooks.php:729
 #: app/Controllers/Hooks/TemplateHooks.php:1077
@@ -1441,88 +1451,88 @@ msgstr ""
 msgid "Location"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:617
+#: app/Controllers/Admin/ScriptLoader.php:615
 msgid "Sorry, you need to login first."
 msgstr ""
 
 #. translators: Image pending count
-#: app/Controllers/Admin/ScriptLoader.php:619
+#: app/Controllers/Admin/ScriptLoader.php:617
 msgid "Sorry, you have only %d images pending."
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:620
+#: app/Controllers/Admin/ScriptLoader.php:618
 msgid "Delete Permanently"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:621
+#: app/Controllers/Admin/ScriptLoader.php:619
 #: app/Controllers/Hooks/TemplateHooks.php:2033
 msgid "Proceed to payment"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:622
+#: app/Controllers/Admin/ScriptLoader.php:620
 msgid "Finish submission"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:625
+#: app/Controllers/Admin/ScriptLoader.php:623
 msgid "Loading ..."
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:644
+#: app/Controllers/Admin/ScriptLoader.php:642
 msgid "You can't leave Captcha Code empty"
 msgstr ""
 
 #. translators: 1: related to , 2: Related form
 #. translators: related something
-#: app/Controllers/Admin/ScriptLoader.php:653
+#: app/Controllers/Admin/ScriptLoader.php:651
 #: app/Controllers/Hooks/TemplateHooks.php:747
 msgid "Need to discuss something related to '%1$s' from %2$s"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:677
+#: app/Controllers/Admin/ScriptLoader.php:675
 msgid "Clear all filters"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:678
+#: app/Controllers/Admin/ScriptLoader.php:676
 msgid "No result found."
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:680
+#: app/Controllers/Admin/ScriptLoader.php:678
 msgid "Showing all % results"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:681
+#: app/Controllers/Admin/ScriptLoader.php:679
 msgid "Showing _ of % results"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:699
+#: app/Controllers/Admin/ScriptLoader.php:697
 msgid "Please select ad type first"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:700
+#: app/Controllers/Admin/ScriptLoader.php:698
 msgid "Please select parent category first"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:850
+#: app/Controllers/Admin/ScriptLoader.php:848
 #: templates/emails/listing-expired-email-to-admin.php:35
 msgid "Expired on:"
 msgstr ""
 
 #. translators: Date formate
 #. translators: 1: month, 2: day, 3: year, 4: hour, 5: minute
-#: app/Controllers/Admin/ScriptLoader.php:852
+#: app/Controllers/Admin/ScriptLoader.php:850
 #: app/Helpers/Functions.php:4750
 msgid "%1$s %2$s, %3$s @ %4$s:%5$s"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:853
+#: app/Controllers/Admin/ScriptLoader.php:851
 msgid "Are you sure you wish to delete this note? This action cannot be undone."
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:854
+#: app/Controllers/Admin/ScriptLoader.php:852
 msgid "Message"
 msgstr ""
 
-#: app/Controllers/Admin/ScriptLoader.php:855
+#: app/Controllers/Admin/ScriptLoader.php:853
 msgid "Send"
 msgstr ""
 
@@ -2436,7 +2446,7 @@ msgstr ""
 #: app/Controllers/BusinessHoursController.php:184
 #: app/Services/FormBuilder/AvailableFields.php:527
 #: app/Services/FormBuilder/AvailableFields.php:540
-#: app/Services/FormBuilder/FormPreDefined.php:251
+#: app/Services/FormBuilder/FormPreDefined.php:247
 msgid "Business Hours"
 msgstr ""
 
@@ -4852,7 +4862,7 @@ msgstr ""
 #: app/Controllers/Hooks/TemplateHooks.php:1340
 #: app/Services/FormBuilder/AvailableFields.php:1030
 #: app/Services/FormBuilder/FormPreDefined.php:33
-#: app/Services/FormBuilder/FormPreDefined.php:277
+#: app/Services/FormBuilder/FormPreDefined.php:273
 #: app/Services/FormBuilder/LocalizedString.php:13
 #: templates/listing-form/form-builder.php:28
 #: templates/listing/actions.php:77
@@ -4894,7 +4904,7 @@ msgstr ""
 #. translators: %d: Page number.
 #. translators: %d: page number
 #: app/Controllers/Hooks/TemplateLoader.php:286
-#: app/Helpers/Breadcrumb.php:387
+#: app/Helpers/Breadcrumb.php:386
 msgid "Page %d"
 msgstr ""
 
@@ -5553,22 +5563,22 @@ msgstr ""
 msgid "Free payment"
 msgstr ""
 
-#: app/Helpers/Breadcrumb.php:110
+#: app/Helpers/Breadcrumb.php:109
 msgid "Error 404"
 msgstr ""
 
 #. translators: %s: tag name
-#: app/Helpers/Breadcrumb.php:294
+#: app/Helpers/Breadcrumb.php:293
 msgid "Posts tagged &ldquo;%s&rdquo;"
 msgstr ""
 
 #. translators: %s: author name
-#: app/Helpers/Breadcrumb.php:337
+#: app/Helpers/Breadcrumb.php:336
 msgid "Author: %s"
 msgstr ""
 
 #. translators: %s: search term
-#: app/Helpers/Breadcrumb.php:377
+#: app/Helpers/Breadcrumb.php:376
 msgid "Search results for &ldquo;%s&rdquo;"
 msgstr ""
 
@@ -8250,8 +8260,8 @@ msgstr ""
 #: app/Services/FormBuilder/AvailableFields.php:869
 #: app/Services/FormBuilder/AvailableFields.php:916
 #: app/Services/FormBuilder/AvailableFields.php:940
-#: app/Services/FormBuilder/FormPreDefined.php:148
-#: app/Services/FormBuilder/FormPreDefined.php:163
+#: app/Services/FormBuilder/FormPreDefined.php:145
+#: app/Services/FormBuilder/FormPreDefined.php:160
 #: app/Traits/Functions/UtilityTrait.php:431
 #: templates/checkout/terms-conditions.php:34
 #: templates/listing-form/terms-conditions.php:33
@@ -9449,19 +9459,19 @@ msgstr ""
 msgid "Features"
 msgstr ""
 
-#: app/Services/FormBuilder/FormPreDefined.php:190
+#: app/Services/FormBuilder/FormPreDefined.php:187
 msgid "Basic Information"
 msgstr ""
 
-#: app/Services/FormBuilder/FormPreDefined.php:199
+#: app/Services/FormBuilder/FormPreDefined.php:196
 msgid "Product Information"
 msgstr ""
 
-#: app/Services/FormBuilder/FormPreDefined.php:215
+#: app/Services/FormBuilder/FormPreDefined.php:211
 msgid "Featured & Gallery Images"
 msgstr ""
 
-#: app/Services/FormBuilder/FormPreDefined.php:271
+#: app/Services/FormBuilder/FormPreDefined.php:267
 msgid "Sample Form"
 msgstr ""
 

@@ -327,7 +327,7 @@ class FilterHooks {
 		$length = Functions::password_min_length();
 		if ( $length && strlen( $password ) < $length ) {
 			$errors->add( 'rtcl_min_pass_length',
-				/* translators:  Password length*/
+				/* translators: Password length */
 				sprintf( esc_html__( "Your password must be at least %d characters long.", "classified-listing" ), Functions::password_min_length() ) );
 		}
 	}

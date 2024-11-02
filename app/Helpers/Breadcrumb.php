@@ -54,7 +54,6 @@ class Breadcrumb
             [Functions::class, 'is_listing_category'],
             [Functions::class, 'is_listing_location'],
             [Functions::class, 'is_listings'],
-            [Functions::class, 'is_listings'],
             'is_page',
             'is_post_type_archive',
             'is_category',

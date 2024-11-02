@@ -19,7 +19,7 @@
                class="form-control"
                value="<?php echo esc_url( isset( $video_urls[0] ) ? $video_urls[0] : '' ) ?>"
                id="video-urls"
-               data-rule-pattern="(https?:\/\/)(www.)?(youtube.com\/watch[?]v=([a-zA-Z0-9_-]{11}))|https?:\/\/(www.)?vimeo.com\/([0-9]{8,9})"
+               data-rule-pattern="(https?:\/\/)(www.)?(youtube.com\/watch[?]v=([a-zA-Z0-9_-]{11}))|https?:\/\/(www.)?vimeo.com\/(\d+)"
                data-msg-pattern="<?php esc_attr_e( "Given url is not a valid YouTube or Vimeo URL", "classified-listing" ); ?>"
                placeholder="<?php esc_attr_e( "Only YouTube & Vimeo URL", "classified-listing" ); ?>"
                name="_rtcl_video_urls[]">

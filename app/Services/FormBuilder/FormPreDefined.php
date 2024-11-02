@@ -131,9 +131,6 @@ class FormPreDefined {
 		$description['uuid']        = FBHelper::generateRandomString();
 		$description['editor_type'] = 'wp_editor';
 
-		$tag         = $availableFields['tag'];
-		$tag['uuid'] = FBHelper::generateRandomString();
-
 		$images         = $availableFields['images'];
 		$images['uuid'] = FBHelper::generateRandomString();
 
@@ -205,8 +202,7 @@ class FormPreDefined {
 					$pricing['uuid'],
 					$condition['uuid'],
 					$features['uuid'],
-					$description['uuid'],
-					$tag['uuid']
+					$description['uuid']
 				]
 			]
 		];
@@ -285,7 +281,6 @@ class FormPreDefined {
 				$condition['uuid']       => $condition,
 				$features['uuid']        => $features,
 				$description['uuid']     => $description,
-				$tag['uuid']             => $tag,
 				$images['uuid']          => $images,
 				$videoUrl['uuid']        => $videoUrl,
 				$location['uuid']        => $location,
@@ -303,6 +298,7 @@ class FormPreDefined {
 				$basicInfoSection,
 				$productInfoSection,
 				$gallerySection,
+				$videoUrlSection,
 				$contactDetailSection,
 				$bhSection,
 				$sProfileSection

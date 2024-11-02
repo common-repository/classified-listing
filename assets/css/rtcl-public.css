@@ -7156,17 +7156,6 @@ body.modal-open .rtcl-bs-modal {
   background-color: #ffffff;
   color: #646464;
   border: none;
-  /*input[type=radio]:after {
-    top: 2px;
-    left: 2px;
-    width: 5px;
-    height: 5px;
-  }
-
-  input[type=radio] {
-    width: 18px;
-    height: 18px;
-  }*/
 }
 .rtcl-widget-filter-class .widget-title {
   font-size: 20px;
@@ -7340,7 +7329,7 @@ body.modal-open .rtcl-bs-modal {
 .rtcl-widget-filter-class .panel-block ul.filter-list.is-collapsed > li:not(:nth-child(-n+5)), .rtcl-widget-filter-class .panel-block ul.sub-list.is-collapsed > li:not(:nth-child(-n+5)), .rtcl-widget-filter-class .panel-block ul.ui-link-tree.is-collapsed > li:not(:nth-child(-n+5)) {
   display: none;
 }
-.rtcl-widget-filter-class .panel-block ul.filter-list.is-collapsed > li:not(:nth-child(-n+5)).is-opener, .rtcl-widget-filter-class .panel-block ul.sub-list.is-collapsed > li:not(:nth-child(-n+5)).is-opener, .rtcl-widget-filter-class .panel-block ul.ui-link-tree.is-collapsed > li:not(:nth-child(-n+5)).is-opener {
+.rtcl-widget-filter-class .panel-block ul.filter-list.is-collapsed > li:not(:nth-child(-n+5)).is-opener, .rtcl-widget-filter-class .panel-block ul.filter-list.is-collapsed > li.is-open.active, .rtcl-widget-filter-class .panel-block ul.sub-list.is-collapsed > li:not(:nth-child(-n+5)).is-opener, .rtcl-widget-filter-class .panel-block ul.sub-list.is-collapsed > li.is-open.active, .rtcl-widget-filter-class .panel-block ul.ui-link-tree.is-collapsed > li:not(:nth-child(-n+5)).is-opener, .rtcl-widget-filter-class .panel-block ul.ui-link-tree.is-collapsed > li.is-open.active {
   display: block;
 }
 .rtcl-widget-filter-class .panel-block ul.filter-list.is-open > li:not(:nth-child(-n+5)).is-opener, .rtcl-widget-filter-class .panel-block ul.sub-list.is-open > li:not(:nth-child(-n+5)).is-opener, .rtcl-widget-filter-class .panel-block ul.ui-link-tree.is-open > li:not(:nth-child(-n+5)).is-opener {
@@ -11158,7 +11147,6 @@ html[dir=rtl] .rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-my-listing-tabl
   background-color: #fff;
   transition: 0.15s all;
   border: none;
-  direction: initial;
 }
 .rtcl.rtcl-elementor-widget .rtcl-listings .listing-item .listing-title {
   line-height: 1.3;
@@ -11719,7 +11707,6 @@ html[dir=rtl] .rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-my-listing-tabl
   padding-bottom: 30px;
   height: initial;
   margin-bottom: 0;
-  direction: initial;
 }
 .rtcl-categories.rtcl-categories-elementor .cat-item-wrap .cat-details {
   height: 100%;
@@ -12274,7 +12261,99 @@ html[dir=rtl] .rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-my-listing-tabl
 
 body.rtl .rtcl.rtcl-elementor-widget .rtcl-listings .rtcl-price {
   display: flex;
-  flex-direction: row-reverse;
+}
+body.rtl .rtcl-el-listing-location-box.location-box-style-2 .rtin-content {
+  text-align: right;
+}
+body.rtl .rtcl-categories-elementor.rt-el-listing-cat-box-2 .cat-item-wrap {
+  text-align: right;
+}
+body.rtl .rtcl.rtcl-elementor-widget .rtcl-grid-view.rtcl-style-3-view i.rtcl-icon-phone {
+  padding-right: 0;
+  padding-left: 6px;
+}
+body.rtl .rtcl.rtcl-elementor-widget .rtcl-listings .rtcl-meta-buttons-withtext .rtcl-text-el-button .rtcl-icon {
+  margin-right: 0;
+  margin-left: 5px;
+}
+body.rtl .rtcl.rtcl-elementor-widget .rtcl-listing-meta-data li > i {
+  margin-right: 0;
+  margin-left: 5px;
+}
+body.rtl .rtcl.rtcl-elementor-widget .rtcl-list-view.rtcl-style-3-view .rtin-right {
+  right: auto;
+  left: -1px;
+}
+body.rtl .rtcl.rtcl-elementor-widget .rtcl-list-view.rtcl-style-3-view .category,
+body.rtl .rtcl.rtcl-elementor-widget .rtcl-list-view.rtcl-style-3-view .rtcl-listing-badge-wrap,
+body.rtl .rtcl.rtcl-elementor-widget .rtcl-list-view.rtcl-style-3-view .listing-title,
+body.rtl .rtcl.rtcl-elementor-widget .rtcl-list-view.rtcl-style-3-view .rtcl-listing-meta-data {
+  padding-right: 0;
+  padding-left: 100px;
+}
+body.rtl .rtcl .rtcl-list-view .rtcl-listing-item .item-content .rtcl-listing-meta-data li {
+  margin-right: 0;
+}
+body.rtl .rtcl.rtcl-elementor-widget .listing-title a {
+  padding-right: 0;
+}
+body.rtl .rtcl.rtcl-elementor-widget .rtcl-list-view.rtcl-style-3-view .item-price {
+  clip-path: polygon(100% 0%, calc(100% - 20px) 50%, 100% 100%, 0 100%, 0 0);
+  padding: 7px 35px 7px 15px;
+}
+body.rtl .el-all-locations.grid-style-2 .location-boxes {
+  text-align: right;
+}
+body.rtl .rtcl.rtcl-elementor-widget .rtcl-list-view.rtcl-style-5-view .rtin-el-button .rtcl-icon,
+body.rtl .rtcl.rtcl-elementor-widget .rtcl-list-view.rtcl-style-4-view .rtin-right .rtin-el-button .rtcl-icon {
+  margin-right: 0;
+  margin-left: 6px;
+}
+body.rtl .rtcl.rtcl-elementor-widget .rtcl-list-view.rtcl-style-5-view .rtin-el-button {
+  text-align: right;
+}
+body.rtl .rtcl.rtcl-gb-block .rtcl-gb-grid-view .listing-item .rtcl-listing-meta-data li i,
+body.rtl .rtcl.rtcl-gb-block .rtcl-gb-list-view .listing-item .rtcl-listing-meta-data li i,
+body.rtl .rtcl.rtcl-gb-block .rtcl-gb-list-view .listing-item .rtcl-meta-buttons-withtext .rtcl-text-gb-button .rtcl-icon {
+  margin-right: 0;
+  margin-left: 6px;
+}
+body.rtl .rtcl-gb-listing-location-box.location-box-style-2 .rtcl-gb-content {
+  text-align: right;
+}
+body.rtl .rtcl-gb-listing-location-box.location-box-style-3 .rtcl-gb-content {
+  text-align: right;
+}
+body.rtl .rtcl-gb-listing-location-box.location-box-style-3 .rtcl-gb-content .rtcl-gb-counter,
+body.rtl .rtcl-gb-listing-location-box.location-box-style-3 .rtcl-gb-content .rtcl-gb-title {
+  padding-right: 0;
+  padding-left: 60px;
+}
+body.rtl .rtcl-gb-listing-location-box.location-box-style-3 .rtcl-gb-content > a {
+  right: auto;
+  left: 30px;
+}
+body.rtl .rtcl-gb-listing-location-box.location-box-style-3 .rtcl-gb-content > a {
+  transform: rotate(225deg);
+}
+body.rtl .rtcl-gb-listing-location-box.location-box-style-3:hover .rtcl-gb-content > a {
+  transform: rotate(180deg);
+}
+body.rtl .rtcl.rtcl-gb-block .rtcl-gb-list-view.rtcl-gb-list-style-3 .item-price {
+  clip-path: polygon(100% 0%, calc(100% - 20px) 50%, 100% 100%, 0 100%, 0 0);
+  padding: 7px 35px 7px 15px;
+  right: auto;
+  left: -1px;
+}
+body.rtl .rtcl.rtcl-gb-block .rtcl-gb-grid-view.rtcl-gb-grid-style-5 .listing-item .listing-thumb .item-price {
+  right: auto;
+  left: -1px;
+  clip-path: polygon(100% 0%, calc(100% - 20px) 50%, 100% 100%, 0 100%, 0 0);
+  padding: 5px 27px 5px 10px;
+}
+body.rtl .rtcl.rtcl-gb-block .rtcl-gb-cat-wrap .rtcl-gb-cat-box.rtcl-gb-cat-box-2,
+body.rtl .gb-all-locations.grid-style-2 .location-boxes {
+  text-align: right;
 }
 
 .rtcl-quick-view-container .rtcl-qv-summary .rtcl-qv-title {

@@ -501,12 +501,12 @@ class FBHelper {
 	 * @return null|array
 	 */
 	public static function getFormDefaultData( $form ) {
-		$formData = [];
 
 		if ( ! is_a( $form, Form::class ) || empty( $fields = $form->fields ) ) {
 			return null;
 		}
 
+		$formData = [];
 		foreach ( $fields as $fieldUuid => $field ) {
 			if ( empty( $field ) || empty( $field['name'] ) ) {
 				continue;
@@ -709,7 +709,7 @@ class FBHelper {
 						$errors['invalid_url'] = __( 'Invalid url', 'classified-listing' );
 					}
 				} elseif ( 'video_urls' === $field['element'] ) {
-					$pattern = '/(https?:\/\/)(www.)?(youtube.com\/watch[?]v=([a-zA-Z0-9_-]{11}))|https?:\/\/(www.)?vimeo.com\/([0-9]{9})/';
+					$pattern = '/(https?:\/\/)(www.)?(youtube.com\/watch[?]v=([a-zA-Z0-9_-]{11}))|https?:\/\/(www.)?vimeo.com\/(\d+)/';
 					if ( is_array( $value ) ) {
 						foreach ( $value as $videoUrl ) {
 							if ( ! preg_match( $pattern, $videoUrl ) ) {

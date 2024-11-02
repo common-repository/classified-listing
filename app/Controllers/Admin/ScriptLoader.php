@@ -225,8 +225,7 @@ class ScriptLoader {
 						'step'            => esc_html__( 'Please enter a multiple of {0}.', 'classified-listing' ),
 						'extension'       => esc_html__( 'Please Select a value file with a valid extension.', 'classified-listing' ),
 						/* translators: Password length */
-						'password'        => sprintf( esc_html__( 'Your password must be at least %d characters long.', 'classified-listing' ),
-							Functions::password_min_length() ),
+						'password'        => sprintf( esc_html__( 'Your password must be at least %d characters long.', 'classified-listing' ), Functions::password_min_length() ),
 						'greaterThan'     => esc_html__( 'Max must be greater than min', 'classified-listing' ),
 						'maxPrice'        => esc_html__( 'Max price must be greater than regular price', 'classified-listing' ),
 						'cc'              => [
@@ -234,8 +233,7 @@ class ScriptLoader {
 							'cvc'              => esc_html__( 'Enter a valid cvc number.', 'classified-listing' ),
 							'expiry'           => esc_html__( 'Enter a valid expiry date', 'classified-listing' ),
 							'incorrect_number' => esc_html__( 'Your card number is incorrect.', 'classified-listing' ),
-							'abort'            => esc_html__( 'A network error has occurred, and you have not been charged. Please try again.',
-								'classified-listing' ),
+							'abort'            => esc_html__( 'A network error has occurred, and you have not been charged. Please try again.', 'classified-listing' ),
 						],
 					],
 					'pwsL10n'       => [
